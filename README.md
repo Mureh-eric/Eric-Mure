@@ -43,8 +43,8 @@ If you want to run this project locally:
 bash
 Copy
 Edit
-# Clone the repository
-git clone https://github.com/your-username/portfolio.git
+# The repository
+git clone https://github.com/Mureh-eric/Eric-Mure.git
 
 # Navigate into the project folder
 cd portfolio
