@@ -68,8 +68,8 @@ Feel free to reach out!
 
  Location: Eldoret, Kenya
 
- LinkedIn: Your LinkedIn
+ LinkedIn: My LinkedIn
 
- GitHub: Your GitHub
+ GitHub: ericmureh@gmail.com
 
 🐦 Twitter/X: Your Twitter
