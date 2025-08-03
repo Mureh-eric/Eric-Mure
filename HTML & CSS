@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eric Mure | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Eric Mure</h1>
+    <p>Student | Aspiring Software Developer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Eric Mure, a passionate student from the University of Eldoret in Kenya. I’m excited by how fast technology evolves. Every year brings something new: smarter devices, breakthrough ideas like quantum computing, and AI. I love learning, building, and solving real-world problems.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>Python </li>
+      <li>C </li>
+    </ul>
+  </section>
+
+  <section class="education">
+    <h2>Educational Background</h2>
+    <p><strong>2024 – Present:</strong> University of Eldoret, Kenya<br>
+    Bachelor of Science in Information Technology</p>
+    <p><strong>2020 – 2023:</strong> St. Joseph’s School, Rapogi - Migori<br>
+    KCSE Grade: B-</p>
+    <a href="ERIC CV.docx" download>Download My CV</a>
+  </section>
+
+  <section class="interests">
+    <h2>Interests</h2>
+    <p>I enjoy learning about new technologies, especially generative AI and how it is reshaping industries. I’m also curious about systems, software, and innovations that can solve everyday problems.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:ericmureh@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p>You can also reach me at:</p>
+    <p><strong>Phone:</strong> +254 795594455<br>
+       <strong>Email:</strong> ericmureh@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eric Mure. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000428, #004e92); /* black and blue */
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #00bfff;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #009acd;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000000;
+}
